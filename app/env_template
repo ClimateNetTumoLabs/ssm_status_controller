@@ -1,0 +1,3 @@
+IOT_ENDPOINT=
+
+#same endpoint as MQTT_BROKER_ENDPOINT in raspberry_soft's env

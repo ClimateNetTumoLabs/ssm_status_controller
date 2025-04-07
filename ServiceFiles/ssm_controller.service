@@ -1,0 +1,14 @@
+[Unit]
+Description=SSM MQTT Controller Service
+After=network.target
+
+[Service]
+ExecStart=/home/raspberry/workspace/ssm_status_controller/app/venv/bin/python3 /home/raspberry/workspace/ssm_status_controller/app/ssm_controller.py
+WorkingDirectory=/home/raspberry/workspace/ssm_status_controller/
+Restart=always
+RestartSec=5
+User=root
+Group=raspberry
+
+[Install]
+WantedBy=multi-user.target

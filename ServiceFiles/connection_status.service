@@ -1,0 +1,14 @@
+[Unit]
+Description=Connection Status with Django
+After=network.target
+
+[Service]
+ExecStart=/home/raspberry/workspace/ssm_status_controller/app/venv/bin/python3 /home/raspberry/workspace/ssm_status_controller/app/connection_status.py
+WorkingDirectory=/home/raspberry/workspace/ssm_status_controller/
+Restart=always
+RestartSec=5
+User=root
+Group=raspberry
+
+[Install]
+WantedBy=multi-user.target
