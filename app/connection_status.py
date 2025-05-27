@@ -11,7 +11,7 @@ def send_heartbeat():
         print("Instance ID not found, skipping heartbeat.")
         return
     
-    url = 'http://10.43.249.122:8000/api/status/'  # Your Django API endpoint
+    url = 'https://dev.climatenet.am/node/status/'  # Your Django API endpoint
     load_dotenv()
 
     data = {
