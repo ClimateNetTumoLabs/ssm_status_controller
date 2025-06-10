@@ -9,6 +9,8 @@ Restart=always
 RestartSec=5
 User=root
 Group=raspberry
+StandardOutput=null
+StandardError=journal
 
 [Install]
 WantedBy=multi-user.target
