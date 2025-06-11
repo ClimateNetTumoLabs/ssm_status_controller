@@ -14,4 +14,4 @@ The topics are `control/managed_node_id` and `control/all` which affects on all 
 
 ---
 
-The setup is on https://github.com/ClimateNetTumoLabs/ssm_status_controller/wiki/Installation-of-this-repository
+The setup is on [Wiki](https://github.com/ClimateNetTumoLabs/ssm_status_controller/wiki/Installation-of-this-repository)
